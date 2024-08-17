@@ -22,7 +22,6 @@ This project is divided into three main steps with future improvements in mind:
 
 2. **Exploratory Data Analysis (EDA) and Machine Learning**
    - Perform EDA on the available features.
-   - Compare performance across different airlines.
    - Determine key features affecting customer loyalty.
    - Support these results with supervised machine learning models, utilizing the ‘Recommended’ and ‘Overall Rating’ values as targets.
 
@@ -52,7 +51,7 @@ The dataset used for this stage of the project is released on [Kaggle](https://w
 
 - **Date Features:**
   - **Review Date:** The date when the review was left.
-  - **Month Flown:** The month when the flight occurred.
+  - **Month Flown:** The month and year of the flight.
 
 - **Text Features:**
   - **Title:** Title of the review.
@@ -75,11 +74,6 @@ The dataset used for this stage of the project is released on [Kaggle](https://w
 - Matplotlib & Seaborn: For data visualization
 
 ### Methods and Algorithms
-- Data Cleaning: Correcting data types, dealing with data inconsistencies, text preprocessing
-- Feature Engineering: Creating new features from existing data
-- Sentiment Analysis: Using NLP techniques to analyze review text
-- Model Building:
-- Evaluation:
 
 ## Results
 ### Key Insights
@@ -89,4 +83,3 @@ The dataset used for this stage of the project is released on [Kaggle](https://w
 ## Future Improvements
 - Create my own dataset by scraping more reviews
 - Experiment with deep learning models for sentiment analysis
-- Incorporate more features related to customer demographics
