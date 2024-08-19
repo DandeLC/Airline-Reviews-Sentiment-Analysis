@@ -243,10 +243,10 @@ def eda(splitter, split, features, df):
     print(df_eda[features].describe())
 
     # Box Plot of numerical features
-    plot_combined_boxplot(df_eda, features, split)
+    plot_combined_boxplot(split, features, df_eda)
     
     # Correlation matrix
-    correlation_matrix(df_eda)
+    correlation_matrix(features, df_eda)
 
 
 def traveller_type(split, df):
