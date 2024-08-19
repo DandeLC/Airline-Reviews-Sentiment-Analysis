@@ -200,7 +200,7 @@ def plot_combined_boxplot(split, features, df):
 
     """
     # Plotting the Box Plots
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(12, 6))
     sns.boxplot(data=df[features])
     plt.title(f'Box Plot of Numerical Features for {split}')
     plt.xlabel('Features')
