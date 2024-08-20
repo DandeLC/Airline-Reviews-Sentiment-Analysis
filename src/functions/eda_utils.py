@@ -167,7 +167,7 @@ def correlation_matrix(features, df):
 
     """
     # Obtaining correlation coefficients of specific features
-    correlation_matrix = df[features].corr()
+    correlation_matrix = df[features+['Recommended']].corr()
 
     # Plotting the heatmap
     plt.figure(figsize=(8, 6))
